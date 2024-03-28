@@ -1,7 +1,5 @@
 const prompt = require('prompt-sync')();
-// Função para calcular o valor total da conta com desconto e o valor por pessoa
 function calcularConta() {
-    // Solicita o número de pessoas na mesa
     let numPessoasStr = prompt("Informe o número de pessoas na mesa: ");
     let numPessoas;
     // Verifica se a entrada é um número válido
